@@ -17,7 +17,7 @@ This project provides a console application that converts Gallagher hardware rep
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/Gallagher_Hardware_to_XLSX.git
+   git clone https://github.com/Mitchell-Lohmann/Gallagher_Hardware_to_XLSX.git
    cd Gallagher_Hardware_to_XLSX
    
 2. **Install Dependencies**
