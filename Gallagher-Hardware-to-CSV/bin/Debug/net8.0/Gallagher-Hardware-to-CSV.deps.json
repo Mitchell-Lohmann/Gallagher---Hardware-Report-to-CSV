@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Gallagher-Hardware-to-CSV/1.0.0": {
+        "runtime": {
+          "Gallagher-Hardware-to-CSV.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Gallagher-Hardware-to-CSV/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
