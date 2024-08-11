@@ -35,10 +35,10 @@ This project provides a console application that converts Gallagher hardware rep
 ## Usage
 When prompted by the application:
 
-1. Enter the relative path of the .txt file you want to read from.
-2. Enter the relative path of the .xlsx file you want to generate.
+1. Enter the relative path of the `.txt` file you want to read from.
+2. Enter the relative path of the `.xlsx` file you want to generate.
    
-The application will then convert the data and save it to the specified .xlsx file.
+The application will then convert the data and save it to the specified `.xlsx` file.
 
 ## Example
 If you have a file doors_report.txt with door data and you want to convert it to doors_report.xlsx, you would:
@@ -48,16 +48,36 @@ If you have a file doors_report.txt with door data and you want to convert it to
 - Enter doors_report.xlsx when prompted for the output file.
 
 ## File Format
-The .txt file should contain door data formatted as follows:
+The `.txt` file should contain door data formatted as follows:
 
 - Each door entry starts with Type,Door.
 - Followed by attributes such as Name, Open sensor, Lock sensor, etc.
 - Each door entry should end with New Page.
 
 ## Notes
-- Ensure that your .txt file adheres to the expected format for successful conversion.
+- Ensure that your `.txt` file adheres to the expected format for successful conversion.
 - The conversion of inputs is not yet implemented but is planned for future updates.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+### MIT License
 
+MIT License
+
+Copyright (c) [2024] [Mitchell Lohmann]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
